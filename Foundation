@@ -1,0 +1,13 @@
+CPoint.h 
+#import <Foundation/Foundation.h>
+@interface CPoint : NSObject 
+{
+  int x; //
+  int y;
+}
+-(void) print;
+-(void) setX: (int) vx;
+-(void) setY: (int) vy;
+-(void) setXY:(int) vx :(int) vy;
+-(int) x;
+-(int) y;
