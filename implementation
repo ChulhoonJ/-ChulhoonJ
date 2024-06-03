@@ -1,0 +1,20 @@
+@end 
+CPoint.m
+#import "CPoint.h"
+@implementation CPoint
+-(void) print
+{
+  NSLog(@"the point is (%i, %i)",x,y);
+}
+-(void) setX: (int) vx
+{
+  x = vx;
+}
+-(void) setY: (int) vy
+{
+  y = vy;
+}
+-(void) setXY:(int)vx :(int)vy
+{
+  x = vx;
+  y = vy;
